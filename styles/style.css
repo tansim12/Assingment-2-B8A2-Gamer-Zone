@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@1,900&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+    
+}
+
+/* navsection start  */
+
+.navsection{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav{
+    
+    
+    max-width: 1200px;
+    min-height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+.navicon{
+    width: 50%;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.navicon-text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+}
+.navicon-text span{
+    color: #FF42A5;
+    
+}
+.navicon img{
+    /* padding: 5px; */
+    width: 60px;
+    height: 30px;
+}
+.navbar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+
+}
+.navbar a{
+    text-decoration: none;
+    margin-left: 32px;
+    color: black;
+}
+.navbar span{
+    border: 1px solid;
+    display: flex;
+    margin-left: 32px;
+    padding: 10px;
+    width: 30%;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: none;
+    background: rgba(11, 2, 35, 0.10);
+}
+.fa-youtube{
+    color: red;
+    font-size: 20px;
+}
+.navbar-btn{
+    border: none;
+}
+
+/* navsection css is done  */
