@@ -1,0 +1,45 @@
+@media screen and (max-width:576px) {
+    
+/* navsection is start  */
+    nav{
+        flex-direction: column;
+    }
+    .navicon{
+       
+        margin: 0 auto;
+        gap: 15px;
+        
+    }
+    .navbar{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar a{
+        margin: 20px;
+    }
+    .navbar span {
+        width: 65%;
+        margin: 0;
+        justify-content: center;
+        gap: 15px;
+    }
+    /* nav section is done  */
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width:577px) and (max-width:960px) {
+    .navbar span{
+        font-size: 10px;
+        padding: 5px;
+        
+    }
+    
+
+    
+}
