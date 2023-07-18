@@ -95,6 +95,7 @@ nav{
     justify-content: center;
     margin: 10% auto;
     padding: 10px;
+
 }
 .banner-goat-img img{
     width: 100%;
@@ -110,9 +111,10 @@ nav{
 }
 .banner-goat-text h1{
     font-size: 48px;
+    text-align: left;
 }
 .banner-goat-text p{
-    /* margin-top: 10px; */
+    margin-top: 10px;
 }
 .btn{
     padding: 21px 40px;
@@ -134,4 +136,60 @@ nav{
 }
 
 /* banner G.O.A.T end */
+
+
+
+/* section banner-online-games start */
+.main-1-text-div{
+    border: 2px solid green;
+    margin-top: 5%;
+    /* max-width: 1200px; */
+}
+.main-1-text-div p,h1{
+    text-align: center;
+}
+.banner-online-games{
+    position: relative;
+    max-width: 1200px;
+    margin:7% auto;
+    min-height: 200px;
+    
+}
+.banner-online-games p,h1{
+    text-align: center;
+} 
+.online-games-card img{
+    width: 280px;
+    display: block;
+}
+.online-games-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* align-content: center; */
+        justify-content: center;
+    
+    
+
+}
+.online-games-card div p {
+    text-align: left;
+    padding: 10px;
+}
+.banner-online-games h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.banner-online-games p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.banner-online-games h1 span{
+    background-image:  linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+/* section banner-online-games end */
 

@@ -50,8 +50,21 @@
         padding: 15px 25px;
     }
 
-
 /* banner G.O.A.T end */
+
+
+
+
+/* section banner-online-games */
+.banner-online-games h1{
+    font-size: 25px;
+    margin-top: 20%;
+}
+.banner-online-games p{
+    font-size: 10px;
+    
+}
+
 
 
 
