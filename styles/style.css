@@ -361,3 +361,67 @@ background-clip: text;
 
 
 
+/* new added cards hover start  */
+
+.hover-icon-img{
+    position: relative;
+}
+.hover-icon p{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.hover-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width:100%;
+    height: 100%;
+
+    text-align: center;
+    color:transparent;
+    font-size: 60px;
+    
+
+}
+.hover-icon-img:hover .hover-icon{
+    cursor: pointer;
+    background-color: rgb(255, 247, 247);
+    -webkit-background-clip: text;
+}
+.hover-icon-img:hover img{
+    border: 5px solid rgb(218, 15, 83);
+    border-radius: 18px;
+}
+
+/* new added cards hover end  */
+
+/* hover effect added  */
+button:hover{
+    cursor: pointer;
+}
+
+.footer-icon i:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: transform .5s;
+}
+.navbar-btn i:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: transform .5s;
+}
+
+img:hover{
+    transform: scale(1.01);
+    transition: transform .5s;
+}
+.navbar-btn img:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: transform .5s;
+}
+
+
