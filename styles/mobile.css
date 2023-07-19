@@ -103,6 +103,32 @@
 /* Play Instantly,No Downloads  section end */
 
 
+/* gamaing button start */
+
+.gamming-buton{
+    gap: 0px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.gamming-buton div button div {
+    gap: 5px;
+    padding: 0px;
+    
+}
+.gamming-buton div button div img{
+    width: 25px;
+}
+.gamming-buton div button div p{
+    font-size: 10px;
+}
+
+
+
+
+
 
 
 }
@@ -150,6 +176,26 @@
     width: 90%;
     margin: -3% 0 0 -1% ;
 }
+
+/* gamaing button start */
+.gamming-buton{
+    gap: 5px;
+    padding: 20px;
+    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.gamming-buton div button div {
+    gap: 10px;
+    padding: 0px;
+    
+}
+.gamming-buton div button div img{
+    width: 35px;
+}
+/* gamaing button end */
+
 
 
     

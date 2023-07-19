@@ -250,4 +250,44 @@ nav{
 /* Play Instantly,No Downloads  section end  */
 
 
+/* gamaing button start */
+
+.gamming-buton{
+    display: flex;
+    gap: 20px;
+
+    max-width: 1200px;
+    margin: 7% auto;
+    min-height: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.gamming-buton div button div {
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.gamming-buton div button div img{
+    width: 35px;
+}
+.gamming-buton div button {
+    border: none;
+    background: #FFF;
+}
+
+.gamming-buton div button:hover{
+    border:2px solid #FF42A5;
+    border-radius: 58px;
+    transform: scale(1.08);
+    transition: transform .1s ;
+    color:#FF42A5 ;
+    
+
+}
+/* gamaing button end */
 
