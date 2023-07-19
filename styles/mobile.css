@@ -127,6 +127,32 @@
 
 
 
+/* footer section start */
+
+.footer-dspt{
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.footer-icon{
+    padding: 15px;
+    column-gap: 45px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-dspt-icon-dwon{
+    margin: 0 0 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer-p{
+    font-size: small;
+    width: 70%;
+}
+/* footer section end */
+
+
 
 
 

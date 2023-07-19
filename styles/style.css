@@ -291,3 +291,73 @@ nav{
 }
 /* gamaing button end */
 
+
+
+/* footer section start */
+
+
+footer{
+    background: #0B0223;
+}
+.footer-main-div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+
+    height: 450px;
+
+}
+
+.footer-text{
+
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 40px;
+
+}
+.footer-gamer-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+.footer-gamer-text span{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: transparent;
+background-clip: text;
+-webkit-background-clip: text;
+
+
+}
+.footer-dspt{
+    padding: 30px;
+    display: flex;
+    gap: 35px;
+}
+.footer-dspt-icon-dwon{
+    display: flex;
+    gap: 15px;
+}
+.footer-icon div a i {
+    color: white;
+}
+/* footer section end */
+
+
+
