@@ -155,7 +155,12 @@ nav{
     min-height: 200px;
     
 }
-.banner-online-games p,h1{
+
+                            /* new addd */
+.banner-online-games p{
+    text-align: center;
+} 
+.banner-online-games h1{
     text-align: center;
 } 
 .online-games-card img{
@@ -190,6 +195,59 @@ nav{
     -webkit-background-clip: text;
 }
 
-
 /* section banner-online-games end */
+
+
+
+/* Play Instantly,No Downloads  section start  */
+.play-instant{
+    max-width: 1200px;
+    margin: auto;
+    min-height: 300px;
+    display: flex;
+    gap: 50px;
+    font-family: 'Work Sans', sans-serif;
+}
+.play-instant-text{
+    width: 50%;
+
+}
+.play-instant-img{
+    width: 50%;
+}
+.pic-1 img{
+    width: 100%;
+}
+.pic-2 img{
+    width: 60%;
+    margin: -50% 0 0 -20% ;
+}
+.play-instant-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.play-instant-text-left{
+    text-align: right;
+}
+.play-instant-text-left h1{
+    text-align: right;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+.play-instant-text-left h1 .play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.play-instant-text-left h1 .no{
+    color: #0B0223;
+    font-weight: bold;
+    font-size: 45px;
+    
+}
+/* Play Instantly,No Downloads  section end  */
+
+
 

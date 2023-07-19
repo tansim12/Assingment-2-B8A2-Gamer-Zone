@@ -53,8 +53,6 @@
 /* banner G.O.A.T end */
 
 
-
-
 /* section banner-online-games */
 .banner-online-games h1{
     font-size: 25px;
@@ -65,7 +63,44 @@
     
 }
 
+/* Play Instantly,No Downloads  section start */
 
+.play-instant{
+    width: 100%;
+    flex-direction: column;
+}
+.play-instant-text{
+    width: 100%;
+
+}
+.play-instant-text{
+    width: 100%;
+}
+
+.play-instant-text-left{
+    text-align: center ;
+    font-size: smaller;
+}
+.play-instant-text-left h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.play-instant-text-left h1 .no{
+    font-size:28px ;
+}
+.play-instant-img{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.pic-2{
+    width: 80%;
+    margin: -3% 0 0 -1% ;
+}
+
+/* Play Instantly,No Downloads  section end */
 
 
 
@@ -85,7 +120,37 @@
     .singin,.gorogue{
         padding: 15px 25px;
     }
-    
+
+
+
+    .play-instant{
+        width: 100%;
+        flex-direction: column;
+    }
+    .play-instant-text{
+    width: 100%;
+
+}
+.play-instant-text{
+    width: 100%;
+}
+.play-instant-text-left{
+    text-align: center ;
+}
+.play-instant-text-left h1 {
+    text-align: center;
+}
+.play-instant-img{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.pic-2{
+    width: 90%;
+    margin: -3% 0 0 -1% ;
+}
+
 
     
 }
